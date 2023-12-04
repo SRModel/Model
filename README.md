@@ -15,8 +15,14 @@ pip install -r requirements.txt
     ../DF2K+DIV8K+Flickr2K+OutdoorSceneTraining/train_EDGE_sub
     ../DF2K+DIV8K+Flickr2K+OutdoorSceneTraining/meta_info_DF2K+DIV8.txt
 ```
-
-
-
+- train
+```bash
+   python basicsr/train.py -opt options/train/AD_MI/train.yml --auto_resume
+```
+ 
+- test
+```bash
+   python basicsr/train.py -opt options/test/AD_MI/test.yml --auto_resume
+```
 
 
