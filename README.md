@@ -9,7 +9,12 @@ In single-image super-resolution reconstruction, existing deep learning-based me
 ```bash
 pip install -r requirements.txt
 ```
-
+- datasets
+```bash
+    ../DF2K+DIV8K+Flickr2K+OutdoorSceneTraining/train_HR_sub
+    ../DF2K+DIV8K+Flickr2K+OutdoorSceneTraining/train_EDGE_sub
+    ../DF2K+DIV8K+Flickr2K+OutdoorSceneTraining/meta_info_DF2K+DIV8.txt
+```
 
 
 
